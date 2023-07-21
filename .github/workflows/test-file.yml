@@ -7,6 +7,6 @@ jobs:
       - name: Print greeting
         run: echo "hello world!"
         with:
-          account_id: ""
+          account_id: "{{ aws_account_id }}"
       - name: Print goodbye
         run: echo "done bye!"
