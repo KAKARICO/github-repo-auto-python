@@ -4,7 +4,7 @@ on: workflow_dispatch
 # should have 
 jobs: # lot of comments
   first-job:
-    runs-on: {{ runs_on }}
+    runs-on: "{{ runs_on }}"
     steps:
       - name: Print greeting
         run: echo "hello world!"
