@@ -10,5 +10,6 @@ jobs: # lot of comments
         run: echo "hello world!"
         with:
           account_id: "{{ aws_account_id_dev }}"
+          environment: "{{ environment }}"
       - name: Print goodbye
         run: echo "done bye!"
