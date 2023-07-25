@@ -9,7 +9,7 @@ jobs: # lot of comments
       - name: Print greeting
         run: echo "hello world!"
         with:
-          account_id: "{{ aws_account_id_dev }}"
+          account_id: "{{ aws_account_id }}"
           environment: "{{ environment }}"
       - name: Print goodbye
         run: echo "done bye!"
