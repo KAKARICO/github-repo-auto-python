@@ -9,6 +9,6 @@ jobs: # lot of comments
       - name: Print greeting
         run: echo "hello world!"
         with:
-          account_id: "{{ cookiecutter.aws_account_id_dev }}"
+          account_id: "{{ aws_account_id_dev }}"
       - name: Print goodbye
         run: echo "done bye!"
